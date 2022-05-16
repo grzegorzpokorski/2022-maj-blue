@@ -4,8 +4,8 @@
   "description": "- [index](url_to_deploy)",
   "main": "gulpfile.js",
   "scripts": {
-    "tailwindD": "npx tailwindcss -i ./src/scss/_tailwind-input.scss -o ./src/scss/_tailwind-output.scss --watch",
-    "tailwindB": "npx tailwindcss -i ./src/scss/_tailwind-input.scss -o ./src/scss/_tailwind-output.scss"
+    "tailwindD": "npx tailwindcss -i ./src/scss/base/_tailwind-input.scss -o ./src/scss/base/_tailwind-output.scss --watch",
+    "tailwindB": "npx tailwindcss -i ./src/scss/base/_tailwind-input.scss -o ./src/scss/base/_tailwind-output.scss"
   },
   "author": "",
   "license": "ISC",

@@ -5,7 +5,8 @@
   font-style: regular;
   font-weight: 400;
   font-display: swap;
-  src: url("./../../dist/fonts/rubik/rubik-all-400-normal.woff") format("woff");
+  src: url("./../../../dist/fonts/rubik/rubik-all-400-normal.woff")
+    format("woff");
 }
 
 font-face {
@@ -13,7 +14,8 @@ font-face {
   font-style: medium;
   font-weight: 500;
   font-display: swap;
-  src: url("./../../dist/fonts/rubik/rubik-all-500-normal.woff") format("woff");
+  src: url("./../../../dist/fonts/rubik/rubik-all-500-normal.woff")
+    format("woff");
 }
 
 @font-face {
@@ -21,5 +23,6 @@ font-face {
   font-style: bold;
   font-weight: 700;
   font-display: swap;
-  src: url("./../../dist/fonts/rubik/rubik-all-700-normal.woff") format("woff");
+  src: url("./../../../dist/fonts/rubik/rubik-all-700-normal.woff")
+    format("woff");
 }

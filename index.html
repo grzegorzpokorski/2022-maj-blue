@@ -8,8 +8,82 @@
     <title>tailwind-starter</title>
   </head>
   <body>
-    <header class="bg-blue-500">
-      <div class="container mx-auto px-3"></div>
+    <header class="bg-blue-100">
+      <nav
+        class="container mx-auto px-3 py-12 flex flex-col lg:flex-row justify-between lg:items-center gap-6"
+      >
+        <div class="flex flex-row">
+          <a href="#" class="text-xl font-bold text-black-900">
+            Hiking Adventure
+          </a>
+        </div>
+        <ul class="flex flex-col lg:flex-row gap-3 md:gap-6">
+          <li>
+            <a href="#" class="text-black-500 hover:text-blue-800">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-black-500 hover:text-blue-800">Blogs</a>
+          </li>
+          <li>
+            <a href="#" class="text-black-500 hover:text-blue-800"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-black-500 hover:text-blue-800">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section
+        class="container mx-auto px-3 flex flex-col md:flex-row gap-12 py-24 justify-around items-center"
+      >
+        <header class="w-full md:w-1/2 flex flex-col gap-3">
+          <h2 class="font-bold text-[3rem] leading-tight">
+            Be prepeared for the mountains and beyond.
+          </h2>
+          <p>
+            Are you looking for amazing hiking travel? Don't worry! We got it
+            for you!
+          </p>
+          <div class="flex flex-wrap gap-3 lg:gap-3 mt-6">
+            <a
+              href="#"
+              class="bg-blue-500 hover:bg-blue-700 transition border-2 border-blue-500 text-white text-md py-3 px-6 rounded-full shadow-xl"
+              >Contact Us</a
+            >
+            <a
+              href="#"
+              class="bg-transparent hover:bg-blue-700 transition border-2 border-blue-500 text-blue-500 hover:text-white text-md py-3 px-6 rounded-full"
+              >Watch Video</a
+            >
+          </div>
+        </header>
+        <picture
+          class="w-full md:w-1/2 relative block overflow-hidden h-96 rounded-full"
+        >
+          <source
+            media="(min-width: 720px)"
+            srcset="./dist/img/people-768w.webp 1x"
+          />
+          <source
+            media="(min-width: 960px)"
+            srcset="./dist/img/people-992w.webp 1x"
+          />
+          <source
+            media="(min-width: 1140px)"
+            srcset="./dist/img/people-1200w.webp 1x"
+          />
+          <source
+            media="(min-width: 1320px)"
+            srcset="./dist/img/people-1920w.webp 1x"
+          />
+          <img
+            src="./dist/img/people-576w.webp"
+            alt="people"
+            class="object-cover object-center w-full h-full"
+          />
+        </picture>
+      </section>
     </header>
     <main>
       <section
