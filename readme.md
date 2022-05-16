@@ -1,6 +1,6 @@
 ### Pages:
 
-- [index](url_to_deployed site)
+- [index](https://grzegorzpokorski.github.io/2022-maj-blue/)
 
 ### npm comands:
 
