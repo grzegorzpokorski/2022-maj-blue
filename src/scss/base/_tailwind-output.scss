@@ -763,6 +763,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -934,5 +938,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .lg\:text-\[3rem\] {
+    font-size: 3rem;
   }
 }
