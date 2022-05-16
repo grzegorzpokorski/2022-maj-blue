@@ -543,6 +543,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.75rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -889,6 +893,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 960px) {
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }

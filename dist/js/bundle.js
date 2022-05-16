@@ -1,0 +1,2 @@
+(()=>{var e=document.getElementById("menu"),n=document.getElementById("menu-opener");n.addEventListener("click",(function(t){e.classList.toggle("navbar__menu--open"),n.classList.toggle("navbar__opener--open")}))})();
+//# sourceMappingURL=bundle.js.map
