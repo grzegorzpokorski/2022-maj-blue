@@ -724,6 +724,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -893,6 +897,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 960px) {
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .lg\:hidden {
     display: none;
   }
@@ -907,5 +915,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:gap-3 {
     gap: 0.75rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
