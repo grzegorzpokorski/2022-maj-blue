@@ -1,0 +1,32 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "- [index](url_to_deploy)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "tailwindD": "npx tailwindcss -i ./src/scss/_tailwind-input.scss -o ./src/scss/_tailwind-output.scss --watch",
+    "tailwindB": "npx tailwindcss -i ./src/scss/_tailwind-input.scss -o ./src/scss/_tailwind-output.scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@fontsource/rubik": "^4.5.9",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "babel-loader": "^8.2.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.51.0",
+    "tailwindcss": "^3.0.24",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
