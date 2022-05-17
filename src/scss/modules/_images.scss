@@ -1,0 +1,7 @@
+.section-picture {
+  border-radius: 0.75rem;
+
+  @media (min-width: 960px) {
+    border-radius: 50% 0 50% 50%;
+  }
+}
